@@ -1,12 +1,12 @@
-# ANIMA operational considerations for BRSKI Registrar
+# EAT Endorsement, Proof of Position
 
-The ANIMA WG Bootstrapping Remote Secure Key Infrastructure (BRSKI)
-protocol involves three parties: Pledge (device), Registrar and
-Manufacturer Authorized Signing Authority (MASA).
+This is a candidate document for the RATS WG.
+http://datatracker.ietf.org/wg/rats 
 
-This repository contains operational considerations for the Registrar
-function.  It is a candidate document for the ANIMA WG
-http://datatracker.ietf.org/wg/anima 
+It deals with a non-IP borne protocol that can be used by a human auditor to establish 
+that the device in front of the human is the right device.
+This is relevant for auditors that need to create Endorsements.
+
 
 
 

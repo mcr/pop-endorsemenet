@@ -1,0 +1,70 @@
+---
+title: Proof of Position for Auditor managed Endorsements
+abbrev: EAR POP
+docname: draft-richardson-rats-pop-endorsement-00
+
+# stand_alone: true
+
+ipr: trust200902
+area: Internet
+wg: RATS Working Group
+kw: Internet-Draft
+cat: std
+
+coding: utf8
+pi:    # can use array (if all yes) or hash here
+  toc: yes
+  sortrefs:   # defaults to yes
+  symrefs: yes
+
+author:
+
+- ins: M. Richardson
+  name: Michael Richardson
+  org: Sandelman Software Works
+  email: mcr+ietf@sandelman.ca
+
+normative:
+  BCP14: RFC8174
+  I-D.ietf-rats-endorsements:
+
+informative:
+  RFC7030:
+
+--- abstract
+
+Some aspects of a device can not be intuited by the device itself.
+For instance, a router platform may have no way to know what color the case is, where in a cabinet it is located, or which electrical circuit it is connected to.
+This kind of information must be provided through an Endorsement: a statement from a third party.
+
+These statements may require human audiitors to inspect the device physically.
+But, which device is really in front of an auditor?  This document describes a mechanism by which an auditor can make physical contact with a device and collect information to identify the
+device in a cryptographically strong manner.
+
+This protocol is not designed to run over Internet Protocol cabling, but rather over mechanisms such as USB cables, or serial consoles.
+
+--- middle
+
+# Introduction
+
+How about that {{BCP14}}.
+
+# Privacy Considerations
+
+YYY
+
+# Security Considerations
+
+ZZZ
+
+# IANA Considerations
+
+# Acknowledgements
+
+Hello.
+
+# Changelog
+
+
+--- back
+
