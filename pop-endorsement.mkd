@@ -194,7 +194,7 @@ This information would be ideally collected by scanning (and checking) labels on
 Some additional commands can be provided by the device under audit:
 
 "attestation-key":
-: This command returns the public certificate for the device's Attestation Key in {{RFC7468}} Certificate format.
+: This command returns the public certificate for the device's Attestation Key in {{!RFC7468}} Certificate format.
 
 "port-flash":
 : This command takes an interface number/name (e.g., "GigabitEthernet 3/014"), and causes the LEDs adjacent to a particular port to flash in a distinct pattern.  This is to help identity which physical port is which.
