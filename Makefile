@@ -1,4 +1,4 @@
-DRAFT:=draft
+DRAFT:=pop-endorsement
 VERSION:=$(shell ./getver ${DRAFT}.mkd )
 EXAMPLES=
 
